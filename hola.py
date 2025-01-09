@@ -1,5 +1,3 @@
-from os import system
-system("cls")
 
 # e=int(input(": "))
 # num=int(input(": "))
@@ -35,9 +33,30 @@ system("cls")
 # else:
 #     print("es impar")
 
-num=int(input(":"))
-for i in range((num)+1):
-    if i%2!=0:
-        print("es impar",i)
-    if i%2==0:
-        print("es par",i)
+# num=int(input(":"))
+# for i in range((num)+1):
+#     if i%2!=0:
+#         print("es impar",i)
+#     if i%2==0:
+#         print("es par",i)
+        
+pal=input("ingrese nombre: ")
+print(len(pal))
+t=0
+for i in range(len(pal)):
+    t=t+(i+1)
+print(f"total = {t}")
+    
+# for i in pal:
+#     print(i)
+    
+# n = int(input(":"))
+# m = int(input(":"))  
+# while True:
+#     if m == 0:
+#         print("error")
+#         n = int(input(":"))
+#         m = int(input(":"))
+#     else:
+#         print(n/m)
+#         break
